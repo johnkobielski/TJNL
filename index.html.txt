@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TJ Nexus Labs</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <header class="site-header">
+    <img src="assets/logo.png" alt="TJ Nexus Labs Logo" class="site-logo"/>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Accelerating CEE Innovations in the USA</h1>
+      <p>TJ Nexus Labs scales cutting-edge technologies from Central and Eastern Europe for the U.S. market.</p>
+      <a href="#contact" class="btn">Contact Us</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>What We Do</h2>
+    <div class="features-grid">
+      <div class="feature">
+        <h3>Market Expansion</h3>
+        <p>We help companies from CEE successfully enter and grow in the U.S. market.</p>
+      </div>
+      <div class="feature">
+        <h3>Operational Support</h3>
+        <p>From legal setup to staffing and processes, we handle the operational details.</p>
+      </div>
+      <div class="feature">
+        <h3>Strategic Scaling</h3>
+        <p>Our team ensures scalable growth through proven frameworks and connections.</p>
+      </div>
+      <div class="feature">
+        <h3>Capital Access</h3>
+        <p>We connect startups to a network of U.S. investors and guide them through the fundraising process.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <ul>
+      <li>Email: <a href="mailto:john.kobielski@tjnexuslabs.com">john.kobielski@tjnexuslabs.com</a></li>
+      <li>Email: <a href="mailto:tomasz@tjnexuslabs.com">tomasz@tjnexuslabs.com</a></li>
+      <li>LinkedIn: <a href="https://linkedin.com/company/tj-nexus-labs" target="_blank">TJ Nexus Labs</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© TJ Nexus Labs. Scaling CEE innovations in the USA.</p>
+  </footer>
+
+</body>
+</html>
