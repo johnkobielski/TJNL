@@ -68,8 +68,28 @@
     <p>© TJ Nexus Labs. Scaling CEE innovations in the USA.</p>
   </footer>
 
+  <!-- ✅ Simple Cookie Consent Banner -->
+  <div id="cookie-banner" style="position:fixed; bottom:0; width:100%; background:#222; color:#fff; padding:15px; font-size:14px; display:flex; justify-content:space-between; align-items:center; z-index:9999;">
+    <span>This site uses cookies to improve your experience. By using this site, you accept our use of cookies.</span>
+    <button onclick="acceptCookies()" style="background:#f90; color:#000; padding:8px 14px; border:none; cursor:pointer; font-weight:bold;">Accept</button>
+  </div>
+  
+  <script>
+    function acceptCookies() {
+      document.getElementById('cookie-banner').style.display = 'none';
+      localStorage.setItem('cookiesAccepted', 'true');
+    }
+  
+    window.onload = function () {
+      if (localStorage.getItem('cookiesAccepted')) {
+        document.getElementById('cookie-banner').style.display = 'none';
+      }
+    };
+  </script>
+  
 </body>
 </html>
+
 
 
 
